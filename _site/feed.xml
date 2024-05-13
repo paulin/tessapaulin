@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-13T11:08:32-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tessapaulin</title><subtitle></subtitle><entry><title type="html">As A Citizen: I want to be identified securely</title><link href="http://localhost:4000/us/okrs/2021/05/21/First_Post.html" rel="alternate" type="text/html" title="As A Citizen: I want to be identified securely" /><published>2021-05-21T00:00:00-07:00</published><updated>2021-05-21T00:00:00-07:00</updated><id>http://localhost:4000/us/okrs/2021/05/21/First_Post</id><content type="html" xml:base="http://localhost:4000/us/okrs/2021/05/21/First_Post.html">&lt;p&gt;#As a Citizen I want to be identified securely&lt;/p&gt;
+
+&lt;p&gt;Passport.png&lt;/p&gt;
+&lt;h2 id=&quot;as-a-citizen-do-i-want-a-national-id&quot;&gt;As a Citizen, Do I Want A National ID?&lt;/h2&gt;
+
+&lt;p&gt;In the United States we are at a turning point around a national digital identity. We do not have an official National ID but we treat our Social Security Numbers to identify ourselves for taxes and government benefits. This leaves us vulnerable to identity theft and confusing complications because we are not addressing the problems of a National Identity system head on. If a National ID is done badly it can create a worse situation where we lose more liberty than we realize in the promise of convenience.&lt;/p&gt;
+
+&lt;p&gt;In this article I want to explore what it would mean to have a national id and why that would be important. I also use techniques borrowed from product development to show how this can be done to make a system that is transparent without being broken.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-national-id&quot;&gt;What is a National ID?&lt;/h2&gt;
+&lt;p&gt;Simply put, a National ID is a way for a nation to identify its citizens. Technically, the United States doesn’t have one because it must be a mandatory ID with a picture on it. Imagine something that looks like a drivers license, issued by the federal government, that everyone must have with them.&lt;/p&gt;
+
+&lt;p&gt;It is a mixed bag of convenience except that by forcing the citizens to all have the ID it makes the citizens the subjects of the national government instead of the government working for the citizens. If you know one thing about the United States it would have to be that liberty and independence is a key part of the identity. Therefore we don’t have a National ID by name.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;However over 100 other countries do!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;According to a 1996 publication by Privacy International, around 100 countries had enacted laws making identity cards compulsory:&lt;/em&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.aclu.org/&quot;&gt;American Civil Liberties Union&lt;/a&gt;, ACLU, sees a lot of problems with having a National ID card which they document in &lt;a href=&quot;https://www.aclu.org/other/5-problems-national-id-cards&quot;&gt;this article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It will not solve the purpose for why it is built: A national ID card system will not prevent terrorism.&lt;/li&gt;
+  &lt;li&gt;It will not be restricted: Once put in place, it is exceedingly unlikely that such a system would be restricted to its original purpose.&lt;/li&gt;
+  &lt;li&gt;It will be clunky: A national ID would require a governmental database of every person in the U.S. containing continually updated identifying information.&lt;/li&gt;
+  &lt;li&gt;It reduces your liberty: It can be used to monitor a citizens internal movements.&lt;/li&gt;
+  &lt;li&gt;It would enable more discrimination and harassement&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Creating a database of all of the citizens does seem fraught with abuse. It is very one sided and this sort of information is power. In my opinion, the information owned by our government should be transparent. &lt;strong&gt;We should have more information about our government than our government has about us.&lt;/strong&gt; However, that is another topic I hope to cover in a future article.&lt;/p&gt;
+
+&lt;h2 id=&quot;instead-we-have-the-social-security-system&quot;&gt;Instead we have the Social Security system.&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;“The Social Security number (SSN) was created in 1936 for the sole purpose of tracking the earnings histories of U.S. workers, for use in determining Social Security benefit entitlement and computing benefit levels. Since then, use of the SSN has expanded substantially. Today the SSN may be the most commonly used numbering system in the United States.”&lt;/em&gt; &lt;a href=&quot;https://www.ssa.gov/policy/docs/ssb/v69n2/v69n2p55.htm&quot;&gt;Source SSA.gov&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m writing this in 2021, we are talking about 1936 when President Franklin Delano Roosevelt was fighting the great depression. Later the SSN became the National Identifier of people in the United States. Listen to this from &lt;a href=&quot;https://www.npr.org/2018/03/22/596180023/how-social-security-numbers-became-a-form-of-national-identification&quot;&gt;Planet Money&lt;/a&gt; to learn more. &lt;a href=&quot;https://www.npr.org/transcripts/593603674&quot;&gt;This is a longer version&lt;/a&gt; which digs into it even more.&lt;/p&gt;
+
+&lt;p&gt;The TL;DR is they needed to index the population so they could figure out who needed to pay into the Social Security fund so then they could figure out how to pay it back out later at retirement. Notice that this was far before computers and everything was being done on paper.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately this simply put a number to every citizen which then was convenient for other government agencies to use to keep track of how we are paying our taxes, applying for financial assistance and really this 9 digit number is how we have organized our information around a common index.&lt;/p&gt;
+
+&lt;h2 id=&quot;anti-user-stories-we-have-the-worst-of-all-worlds&quot;&gt;Anti User Stories: We have the worst of all worlds&lt;/h2&gt;
+&lt;p&gt;It’s hard to express how badly this turned out so I think I will write out the User Stories we have to show the mess we are in.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;As a Citizen I want to be tracked by my government in ways I am not aware of&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want to memorize a nine digit number and keep it secret so that I can participate in government programs&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want the number issued on a paper card that is hard to replace.&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want the only security of my identity is my ability to keep my 9 digit number secret&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want to have no control over my information so that I can easily end up with mistakes affecting my future.&lt;/li&gt;
+  &lt;li&gt;As a Government I want to use a numbering system that a modern computer can cycle through in less than 15 seconds to try every combination.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;user-stories&quot;&gt;User Stories&lt;/h2&gt;
+&lt;p&gt;Now that we have a set of user stories that do not work. How about we look into what we would actually want. NOTE: I realize that some people don’t want to be in a database at all. But they are being unrealistic. Either you accept the power that comes with this modern world or you ignore it and give that power to others.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;As a Citizen I want to use a digital id to interact with government systems so that I can pay my taxes securely.&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want a secure way to sign up for Government programs.&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want to control what is tracked about me.&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want to opt in to being tracked.&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want to know what my Government knows about me so that I can argue if there is false information being used to determining my future&lt;/li&gt;
+  &lt;li&gt;As a Citizen I want my government to use an open standard to identify me so that my data is portable beyond my government because I might travel to other countries&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;solutions-that-already-exist&quot;&gt;Solutions that already exist&lt;/h2&gt;
+&lt;p&gt;This is not a new idea. There are many groups that are working on building a secure system that puts the control of identity in the hands of the user. Identity has gone through so many evolutions over the last few decades so that users of vast computer systems can have a balance of convenience and security. &lt;a href=&quot;https://medium.com/evernym/the-three-models-of-digital-identity-relationships-ca0727cb5186&quot;&gt;This article explains the evolution&lt;/a&gt; if you want to dig into this more. The summary is that we want Self Sovereign Identity which is a peer to peer system. It gets rid of the need to have a centralized database that can be controlled and corrupted. Essentially, since no one can be trusted with the power of identity, then we will all share in the responsibility.&lt;/p&gt;
+
+&lt;p&gt;Here is a sample of the groups that have evolved to give you the best control over your identity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bloom:&lt;/strong&gt; &lt;a href=&quot;https://bloom.co/&quot;&gt;https://bloom.co/&lt;/a&gt;: Bloom is a blockchain solution for secure identity and credit scoring. Bloom gives consumers ownership over their identity and financial data. By decentralizing the way that information is shared between untrusted parties, the system reduces risk of identity theft and minimizes costs associated with customer onboarding, compliance and fraud prevention.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Civic:&lt;/strong&gt; &lt;a href=&quot;https://www.civic.com/&quot;&gt;https://www.civic.com/&lt;/a&gt; : AI-powered identity verification combined with human review to ensure that your users are real, always.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hyperledger Indy:&lt;/strong&gt; &lt;a href=&quot;https://www.hyperledger.org/&quot;&gt;https://www.hyperledger.org/&lt;/a&gt; : Hyperledger Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo. Indy is interoperable with other blockchains or can be used standalone powering the decentralization of identity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Serto:&lt;/strong&gt; &lt;a href=&quot;https://www.serto.id/&quot;&gt;https://www.serto.id/&lt;/a&gt; : &lt;em&gt;We enable people and enterprises to utilize the newest innovations in decentralized technology to make data more portable, private, and valuable.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sovrin:&lt;/strong&gt; &lt;a href=&quot;https://sovrin.org/&quot;&gt;https://sovrin.org/&lt;/a&gt; : &lt;em&gt;Personally manage your digital IDs online with the Sovrin Network – an open source project creating a global public utility for self-sovereign identity.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Of all of these Sovrin stands out to me. The whole purpose is to provide an id that a user can use that is beyond the country they live in. So starting with the user and decentralizing the ID across multiple computers it allows you to have a secure ID that cannot be compromised. This would be the root of your identity and you would control it.&lt;/p&gt;
+
+&lt;h2 id=&quot;legislation&quot;&gt;Legislation&lt;/h2&gt;
+&lt;p&gt;It is so amazing to me that we have such an obvious problem and that someone has already come up with a fantastic solution. All that has to happen is for our government to decide this is a good idea.&lt;/p&gt;
+
+&lt;p&gt;In a previous article I posed the question that why wouldn’t every citizen have a login into the federal government? This became a discussion around login and what is possible.&lt;/p&gt;
+
+&lt;p&gt;As it turns out there is one already that exists. It was put together by the &lt;a href=&quot;https://www.gsa.gov/&quot;&gt;https://www.gsa.gov/&lt;/a&gt; and is called &lt;a href=&quot;https://login.gov/&quot;&gt;https://login.gov/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Login.gov offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies. Our goal is to make managing federal benefits, services and applications easier and more secure.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Step 1:&lt;/em&gt; Switch to Sovrin
+The GSA would need to work with Sovrin to switch the authentication to the Sovrin credential platform Evernym. After that all groups using Login.gov to access would need to migrate over to the new authentication system.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Step 2:&lt;/em&gt; The State Department issues an electronic version of the U.S. passport using Sovrin
+Currently the Department of Homeland Security has an e-passport which consists of a chip built into the passport. This isn’t the same thing. I think these could work together to provide some authentication. For example, if more biometric data was stored on the physical passport it could be used to verify identity into the Sovrin system.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Step 3:&lt;/em&gt; The IRS would ask all citizens to create an account on Login.gov instead of using their Social Security number to file their taxes
+This untangles the use of Social Security numbers as the common “National ID” we are using currently and provides a reason for every U.S. citizen to have a more secure online identity.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Step 4:&lt;/em&gt; The U.S. would push the other countries in the United Nations to adopt the same practices.
+It’s very important that other countries adopt a similar practice for tracking identity and authentication. If this happened I think it would unlock opportunities for world citizens far beyond what they have to do currently.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-now&quot;&gt;Why Now?&lt;/h2&gt;
+&lt;p&gt;As we are coming out of covid times and in need of an international passport to verify our vaccine standards, Sovrin would be an obvious choice. If we could get something like this inserted into the global identity it would reduce the amount of “hacking” done with a SSN, improve convenience, and reduce the power of national governments over their citizens.&lt;/p&gt;
+
+&lt;h2 id=&quot;okrs-for-outcomes-over-output&quot;&gt;OKRs for Outcomes over Output&lt;/h2&gt;
+&lt;p&gt;In the world of business OKRs are a fantastic communication tool to provide alignment between different entities by describing what they are trying to achieve. The following would help other entities adjust to the changes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Reduce costs of digital infrastructure
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Key Result 1:&lt;/strong&gt; Establish a list of all government entities requiring a login and automate how they are doing it. Track this as a cost.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Key Result 2:&lt;/strong&gt; Track the costs of business that is devoted to chasing down identity theft due to SSN impersonation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Reduce identity theft for its citizens
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Key Result 1:&lt;/strong&gt; Track the number of identity theft cases that occur&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Key Result 2:&lt;/strong&gt; Track the number of incidents per department and what identity solution the department is using.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Improve international identity
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Key Result 1:&lt;/strong&gt; Track ID forgeries at border crossings. The system described should make it nearly impossible to replicate a passport.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-happens-if-we-get-here&quot;&gt;What happens if we get here?&lt;/h2&gt;
+&lt;p&gt;This is a rather inexpensive change for an inestimable benefit. As a Citizen you will be in control of your own identity. When you log in to do your taxes, they will know it is you, and you can feel some confidence that a hacker did not claim your returns. The reduction in identity theft will save businesses countless amounts. The reduction in wasted federal money spent dealing with security breaches will be vastly reduced.&lt;/p&gt;
+
+&lt;p&gt;Most importantly, for the first time you will feel like you control your own identity since it is decentralized and no government will control it. Depending on what our future holds this can make all the difference between an oppressive future or one where we can remake it again, without having to figure out how to index ourselves.&lt;/p&gt;</content><author><name></name></author><category term="US" /><category term="OKRs" /><summary type="html">#As a Citizen I want to be identified securely</summary></entry></feed>
